@@ -10,8 +10,11 @@ test('gets current day', () => {
 
 test('gets current month', () => {
   // TODO implement
+  expect(date.getCurrentDay()).toBe((new Date()).getMonth());
 });
 
 test('gets current year', () => {
   // TODO implement
+  expect(date.getCurrentDay()).toBe((new Date()).getYear());
+
 });
