@@ -5,19 +5,21 @@ var moment = require('moment');
  * */
 
 function getFullDate() {
-  return moment().format('MMMM Do YYYY, h:mm:ss a');
+  // return moment().format('MMMM Do YYYY, h:mm:ss a');
 }
 
 function getWeekDay() {
   // TODO implement
+  return moment().weekday();
 }
 
 function getCurrentMonth() {
   // TODO implement
+  return moment().month();
 }
 
 function getCurrentYear() {
-  // TODO implement
+  return moment().year();
 }
 
 module.exports = {
